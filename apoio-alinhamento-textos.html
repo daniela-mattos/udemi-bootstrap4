@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <title>Bootstrap - Alinhamento de textos</title>
+  </head>
+
+  <body style="margin-bottom: 200px;padding: 16px;">
+
+
+    <!-- Parágrafo justificado -->
+    <h1>Parágrafo justificado</h1>
+    <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum elementum quam, a viverra ligula fringilla tempus. Ut tempor, dui eu semper aliquet, sem nisi pellentesque libero, suscipit porttitor risus magna vel lorem.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum elementum quam, a viverra ligula fringilla tempus. Ut tempor, dui eu semper aliquet, sem nisi pellentesque libero, suscipit porttitor risus magna vel lorem.</p>
+
+    <br>
+    <br>
+
+    <!-- 
+        Alinhamento responsivo - 
+        text-<tela>-<alinhamento>
+            tela: sm, md, lg, xl
+            alinhamento: left, center, right
+     -->
+
+     <h1>Alinhamento responsivo</h1>
+     <p>
+      Vai mudando o alinhamento conforme o tamanho de tela configurado na class.
+      <br>
+      tela: sm, md, lg, xl
+     </p>
+    <p class="text-sm-right">tela &gt;= 576px</p><!--Small-->
+    <p class="text-md-right">tela &gt;=  768px</p><!--Medium-->
+    <p class="text-lg-right">tela &gt;= 992px</p><!--Large-->
+    <p class="text-xl-right">tela &gt;= 1200px</p><!--Extra Large-->
+
+    <br>
+    <br>
+
+    <!-- Elemento Block para inline -->
+    <h1>Elemento Block para inline</h1>
+    <p>
+      Muda as características de um elemento para outro.
+      O fundo é configurado para facilitar a visualização.
+    </p>
+ 
+    <h1 class="bg-success d-inline">Lorem ipsum dolor</h1>
+    <p class="bg-success d-inline">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+    <br>
+    <br>
+
+    <!-- Elemento Inline para Block -->
+
+    <h1>Elemento inline para block</h1>
+    <p>
+      Muda as características de um elemento para outro.
+      O fundo é configurado para facilitar a visualização.
+    </p>
+
+    <span class=" bg-success  d-block">Lorem ipsum dolor 1</span>
+    <span class="d-block">Lorem ipsum dolor 2</span>
+
+    <br>
+    <br>
+
+    <!-- Elemento Inline-Block -->
+    <h1>Elemento Inline-Block </h1>
+    <p>
+      Elementos block permitem configurar margem e largura, inline não. Unindo os dois tipos de elemento, tem-se as características de um e de outro: Em linha, com a possibilidade de configurar o fundo.
+    </p>
+    <div class="bg-warning">
+      <h3 class=" bg-success d-inline-block">Comportamento inline-block</h3>
+      <h3 class=" bg-success d-inline-block" style="margin-top: 50px; 
+                  width: 400px;">Comportamento inline-block</h3>
+    </div>
+<br>
+    <div class="bg-warning">
+      <h3 class=" bg-success d-inline">Comportamento inline</h3>
+      <h3 class=" bg-success d-inline" style="margin-top: 50px; 
+                  width: 400px;">Comportamento inline</h3>
+    </div>
+
+    <br>
+    <div class="bg-warning">
+      <h3 class=" bg-success d-block">Comportamento block</h3>
+      <h3 class=" bg-success d-block" style="margin-top: 50px; 
+                  width: 400px;">Comportamento block</h3>
+    </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
